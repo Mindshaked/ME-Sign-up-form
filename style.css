@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'mass_effect_123regular';
+    src: url('me123-webfont.woff2') format('woff2'),
+         url('me123-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'mass_effect_123regular', 'Calibri', 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+
+#wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+#left-image{
+    background-color: black;
+    width: 40%;
+    height: 100%;
+   
+   
+}
+
+#background-image {
+
+    max-height: 100vh;
+    background-size: contain;   
+   
+}
+
+#form {
+    background-color: #050f21;
+    width: 60%;
+    height: 100%;
+    border-radius: 30px;
+    z-index: 2;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+#alliance-logo{
+    position: absolute;
+    width: 200px;
+    left: 15vw;
+    top: 35vh;
+  
+}
+
+.form-container {
+    height: 33%;
+    width: auto;
+}
+
+#data-container {
+    background-color: #11326f;
+}
