@@ -89,7 +89,8 @@ body, html {
   height: 45%;
   background-color:#050f21;
   opacity: 90%;
-  padding: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   
 }
 
@@ -158,6 +159,7 @@ button {
     color: white;
     border-color: white;
     padding: 15px;
+    border: none;
 
 }
 
