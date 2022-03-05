@@ -11,12 +11,14 @@
 <body>
 
     <img id="alliance-logo" src="/Sa.png" alt="alliance logo">
+
+    <img src="/Shephard.png" alt="Commander Shephard" id="Shepard">
     
     <div id="wrapper">
         <div id="left-image"><img id="background-image" src="/MassEffect2Citadel.jpg" alt="Citadel"> 
-    
+        </div>   
         
-        </div>
+        
 
         <div id="form"> 
 
@@ -32,32 +34,67 @@
            
            <div class="form-container" id="data-container">
 
-            <form action="" method="get" class="form-input">
-                <div>Join US!</div>
-                
-                <div class="form-input">
+            <form id="input-form" action="" method="get">
+                <div id="form-intro">Join US!</div>
 
+                <div class="form-lines">
+                    <div class="input-pack">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="John" required>
+                    </div>
+
+                    <div class="input-pack">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Shepard" required>
+                    </div>
                 </div>
 
-                <div class="form-input">
+                <div class="form-lines">
+                    <div class="input-pack">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="bestcomander@alliance.com" required>
+                    </div>
 
+                    <div class="input-pack">
+                        <label for="phone-number">Phone number</label>
+                        <input type="number" name="phone-number" id="phone-number" placeholder="123456789" required>
+                    </div>
                 </div>
 
-                <div class="form-input">
+                <div class="form-lines">
+                    <div class="input-pack">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="error" required>
+                    </div>
 
+                    <div class="input-pack">
+                        <label for="conf-password">Confirm Password</label>
+                        <input type="password" name="conf-password" id="conf-password" class="error" required>
+                    </div>
                 </div>
 
              </form>
 
 
            </div>
-           <div class="form-container" id="button-container"></div>
+           <div class="form-container" id="button-container">
+
+                <div id="submit-button">
+                    <button>Create Account</button>
+                </div>
+                <div id="account-text">Already have an account? <a href="">Log in</a></div>
+
+
+           </div>
 
 
 
 
 
         </div>
+        
     </div>
+
+    
 </body>
 </html>
